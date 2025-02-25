@@ -12,6 +12,8 @@ app.get("/home", (req, res) => {
   res.send("this is the home page");
 });
 
+app.post("/post", (req, res) => {});
+
 app.listen(3000, () => {
   console.log("server is ready at port 3000");
 });
